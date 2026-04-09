@@ -1,0 +1,18 @@
+body{
+    background-color:violet;
+    color:chartreuse;
+}
+
+div{
+    border: 10px white solid;
+}
+
+
+
+
+#contenedor{
+    border: 10px yellow solid;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 2fr;
+}

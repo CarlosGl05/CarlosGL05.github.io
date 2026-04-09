@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Clase antes de vacaciones</title>
+      <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body style="color:bisque;">
+    <div id="contenedor">
+      <div class="elemento"> Sección 1</div>
+      <div class="elemento"> Sección 2</div>
+        <div class="elemento"> Sección 3</div>
+
+        
+    </div> 
+
+    <div id="encabezado">
+    </div>
+
+    <style >
+      
+    
+
+    </style>
+    
+    
+
+    <script >
+      let t=1986;
+      const c = 12;
+      console.log(t)
+      let p = {"titulo": "Llano en llamas", "autor":"Juan Rulfo"};
+      console.log(p.autor)
+
+      let d = document.createElement("p");
+      d.textContent = "Hola";
+
+      document.getElementById("encabezado").appendChild(d);
+
+      d.setAttribute("style", "color:blue; font-size: 20px; font-family: Arial;");
+
+    async function obtenerJson(){
+      const respuesta = await fetch("http://openlibrary.org/subjects/love.json?published_in=1500-1600");
+      const datos = await respuesta.json();
+      console.log(datos);
+
+       let b = document.createElement("p");
+       b.textContent = datos.works[0].title;
+
+       document.getElementById("encabezado").appendChild(b);
+       b.setAttribute("style", "color:blue;");
+      }
+
+      obtenerJson();
+
+
+      
+          
+    </script>
+
+  </body>
+</html>
