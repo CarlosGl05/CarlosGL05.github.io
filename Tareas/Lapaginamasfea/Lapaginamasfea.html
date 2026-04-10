@@ -1,61 +1,36 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <title>Clase antes de vacaciones</title>
-      <link rel="stylesheet" href="estilos.css">
-  </head>
-  <body style="color:bisque;">
-    <div id="contenedor">
-      <div class="elemento"> Sección 1</div>
-      <div class="elemento"> Sección 2</div>
-        <div class="elemento"> Sección 3</div>
 
-        
-    </div> 
+<head>
+    <title>La página más fea</title>
+    <link rel="stylesheet" href="lapaginamasfea.css">
 
-    <div id="encabezado">
-    </div>
-
-    <style >
-      
-    
-
-    </style>
-    
-    
-
-    <script >
-      let t=1986;
-      const c = 12;
-      console.log(t)
-      let p = {"titulo": "Llano en llamas", "autor":"Juan Rulfo"};
-      console.log(p.autor)
-
-      let d = document.createElement("p");
-      d.textContent = "Hola";
-
-      document.getElementById("encabezado").appendChild(d);
-
-      d.setAttribute("style", "color:blue; font-size: 20px; font-family: Arial;");
-
-    async function obtenerJson(){
-      const respuesta = await fetch("http://openlibrary.org/subjects/love.json?published_in=1500-1600");
-      const datos = await respuesta.json();
-      console.log(datos);
-
-       let b = document.createElement("p");
-       b.textContent = datos.works[0].title;
-
-       document.getElementById("encabezado").appendChild(b);
-       b.setAttribute("style", "color:blue;");
-      }
-
-      obtenerJson();
+</head>
 
 
-      
-          
-    </script>
+<body>
+    <p id="instrucciones" > Contesta en un html haciendo la página más fea posible
+        Use your own words for the answers. Explain to someone that it’s not an engineer (or student).
+        Write your references in each one of your answers.
+        English o Español o un mix.
+        If you already know how to do something don't do it, you just have to write: “Done”
+        Contesta en un html con css (hazla lo más fea que puedas, nada más que se pueda leer)
 
-  </body>
-</html>
+    </p>
+    <p>1.-HTML</p>
+
+    <section id="introduccionhtml">
+        <h3 id="quees">¿que es html? <br>hypertext markup language o por sus siglas HTML, es un lenguaje de etiquetas usado para generar la estructura de una página web, un dato clave, no es un lenguaje de programación al no contener lógica, solo etiqueta y muestra el contenido en una página web dependiendo de como sea marcado. </h3>
+        <h3 id="etiquetasheadbody">¿que son las etiquetas head y body? <br>la etiqueta head es la parte de una página web que contiene información como su titulo, enlaces a hojas de estilo y de dinamiso (Js y Css), la etiqueta boody contiene todo el contenido que será mostrado al usuario, como texto, imagenes, hipervinculos, etc.</h3>
+    </section>
+
+    <section id="basictagshtml">
+
+        <h3 id="explicar">explica las etiquetas section, article, aside, header y footer. <br>  </h3>
+        <h3 id="listas"> crea una unordered list y una ordered list. <br> </h3>
+        <h3 id="tabla"> crea una tabla basica usando html. <br> </h3>
+
+    </section>
+
+
+
+</body>
