@@ -5,15 +5,14 @@
 }
 
 body {
-    font-family: 'Helvetica', sans-serif;
-    background-color: #f9fbff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fcfcfc;
     color: #2c3e50;
 }
 
-/* Navegación Superior */
 .superior {
     background-color: #ffffff;
-    border-bottom: 2px solid #e1e8ed;
+    border-bottom: 2px solid #eaeff2;
 }
 
 .barra {
@@ -28,52 +27,52 @@ body {
 .identidad {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .icono {
-    width: 30px;
-    margin-right: 15px;
+    width: 32px;
+    margin-right: 12px;
 }
 
 .logo {
-    font-family: serif;
-    font-size: 24px;
-    color: #0d2a3a;
+    font-family: Georgia, serif;
+    font-size: 26px;
+    color: #1a2a33;
 }
 
 .enlaces {
     display: flex;
     list-style: none;
     gap: 20px;
+    flex-grow: 1;
 }
 
 .enlaces li {
-    font-size: 13px;
-    color: #64748b;
+    font-size: 14px;
+    color: #5d6d7e;
+    font-weight: 600;
+}
+
+.donar {
+    background-color: #c62828;
+    color: #ffffff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 4px;
     font-weight: bold;
 }
 
-/* Botones con variaciones de color */
-.donar {
-    background-color: #b91c1c;
-    color: #ffffff;
-    border: none;
-    padding: 8px 18px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 .enviar {
-    background-color: #475569;
+    background-color: #455a64;
     color: #ffffff;
     border: none;
     padding: 8px 18px;
     border-radius: 4px;
+    font-weight: bold;
     margin-left: 10px;
-    cursor: pointer;
 }
 
-/* Buscador */
 .buscador {
     padding: 40px 0;
 }
@@ -81,19 +80,19 @@ body {
 .campo {
     max-width: 600px;
     margin: 0 auto;
-    border: 1px solid #cbd5e1;
+    border: 1px solid #ced4da;
     padding: 12px 20px;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
     color: #94a3b8;
+    border-radius: 4px;
 }
 
-/* Filtros */
 .filtros {
-    border-top: 1px solid #f1f5f9;
-    border-bottom: 1px solid #f1f5f9;
-    padding: 15px 0;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    padding: 18px 0;
     background-color: #ffffff;
 }
 
@@ -101,33 +100,33 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 25px;
+    gap: 30px;
 }
 
 .lista li {
     font-weight: bold;
     font-size: 11px;
-    color: #1e293b;
+    color: #1a2a33;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
 }
 
 .principal {
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 40px 20px;
 }
 
 .titulo {
-    font-size: 26px;
-    color: #0d2a3a;
+    font-size: 28px;
+    color: #1a2a33;
     margin-bottom: 30px;
+    font-family: Georgia, serif;
 }
 
 .rejilla {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 25px;
 }
 
 #ancho {
@@ -135,49 +134,49 @@ body {
 }
 
 .tarjeta {
-    border: 1px solid #e2e8f0;
+    border: 1px solid #e0e6ed;
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    background: #eaeaea;
 }
 
 .imagen {
     width: 100%;
-    height: 220px;
+    height: 240px;
     object-fit: cover;
 }
 
 .cuerpo {
-    padding: 15px;
+    padding: 20px;
     flex-grow: 1;
 }
 
 .encabezado {
-    color: #0d2a3a;
-    margin-bottom: 8px;
-    font-size: 17px;
+    color: #1a2a33;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .detalle {
-    font-size: 13px;
-    color: #475569;
-    line-height: 1.4;
+    font-size: 14px;
+    color: #495057;
+    line-height: 1.5;
 }
 
 .fecha {
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 11px;
-    color: #94a3b8;
+    color: #868e96;
     text-align: right;
-    border-top: 1px solid #f8fafc;
+    border-top: 1px solid #f8f9fa;
 }
 
 .final {
-    background-color: #f1f5f9;
-    margin-top: 60px;
-    padding: 50px 0;
+    background-color: #f1f3f5;
+    margin-top: 80px;
+    padding: 60px 0;
     position: relative;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #dee2e6;
 }
 
 .retorno {
@@ -189,21 +188,23 @@ body {
 
 .boton {
     background: #ffffff;
-    border: 1px solid #cbd5e1;
+    border: 1px solid #ced4da;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    color: #64748b;
-    font-size: 10px;
+    width: 55px;
+    height: 55px;
+    color: #495057;
+    font-size: 11px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .socios {
     display: flex;
     justify-content: center;
     gap: 40px;
-    max-width: 1100px;
+    max-width: 1250px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .unidad {
@@ -212,13 +213,15 @@ body {
 }
 
 .unidad img {
-    height: 45px;
-    margin-bottom: 12px;
+    height: 50px;
+    margin-bottom: 15px;
     filter: grayscale(1);
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .unidad p {
     font-size: 11px;
-    color: #64748b;
+    color: #6c757d;
+    line-height: 1.4;
+    text-align: left;
 }
