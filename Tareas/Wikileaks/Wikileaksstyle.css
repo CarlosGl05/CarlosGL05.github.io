@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f9fbff;
+    color: #2c3e50;
+}
+
+/* Navegación Superior */
+.superior {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e1e8ed;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.identidad {
+    display: flex;
+    align-items: center;
+}
+
+.icono {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.logo {
+    font-family: serif;
+    font-size: 24px;
+    color: #0d2a3a;
+}
+
+.enlaces {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.enlaces li {
+    font-size: 13px;
+    color: #64748b;
+    font-weight: bold;
+}
+
+/* Botones con variaciones de color */
+.donar {
+    background-color: #b91c1c;
+    color: #ffffff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: #475569;
+    color: #ffffff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Buscador */
+.buscador {
+    padding: 40px 0;
+}
+
+.campo {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #cbd5e1;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #94a3b8;
+}
+
+/* Filtros */
+.filtros {
+    border-top: 1px solid #f1f5f9;
+    border-bottom: 1px solid #f1f5f9;
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.lista li {
+    font-weight: bold;
+    font-size: 11px;
+    color: #1e293b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.principal {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.titulo {
+    font-size: 26px;
+    color: #0d2a3a;
+    margin-bottom: 30px;
+}
+
+.rejilla {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#ancho {
+    grid-column: span 2;
+}
+
+.tarjeta {
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.imagen {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.cuerpo {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.encabezado {
+    color: #0d2a3a;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.detalle {
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.4;
+}
+
+.fecha {
+    padding: 10px 15px;
+    font-size: 11px;
+    color: #94a3b8;
+    text-align: right;
+    border-top: 1px solid #f8fafc;
+}
+
+.final {
+    background-color: #f1f5f9;
+    margin-top: 60px;
+    padding: 50px 0;
+    position: relative;
+    border-top: 1px solid #e2e8f0;
+}
+
+.retorno {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.boton {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.socios {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.unidad {
+    flex: 1;
+    text-align: center;
+}
+
+.unidad img {
+    height: 45px;
+    margin-bottom: 12px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+
+.unidad p {
+    font-size: 11px;
+    color: #64748b;
+}
