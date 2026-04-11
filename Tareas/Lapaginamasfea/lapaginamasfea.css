@@ -1,0 +1,76 @@
+body {
+    background-color: #ff00ff;
+    color: #00ff00;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    cursor: wait;
+    border: 20px ridge #ffff00;
+}
+
+#instrucciones {
+    background-color: darkblue;
+    color: white;
+    font-size: 8px;
+    text-transform: uppercase;
+    border: 5px dashed red;
+    padding: 10px;
+}
+
+p, h3 {
+    text-shadow: 5px 5px 1px #ff0000, -2px -2px 1px #0000ff;
+}
+
+#introduccionhtml {
+    background-color: #808000;
+    transform: rotate(-1deg);
+    margin: 20px;
+}
+
+#basictagshtml {
+    background-color: #000080;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+#introduccioncss {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    color: black;
+}
+
+#basiccss {
+    background-color: #ffffff;
+    color: #ff00ff;
+    border: 10px dotted brown;
+}
+
+#layout, #aplicacion {
+    background-color: #ffa500;
+    border: 15px double lime;
+    margin-top: 50px;
+}
+
+table {
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: 10px groove gold;
+}
+
+ul, ol {
+    background-color: black;
+    border: 2px solid white;
+}
+
+img {
+    filter: invert(100%) sepia(100%);
+    width: 150px;
+    border: 5px solid white;
+}
+
+#quees {
+    font-size: 25px;
+    text-decoration: underline wavy red;
+}
+
+#boxmodel {
+    letter-spacing: 10px;
+}

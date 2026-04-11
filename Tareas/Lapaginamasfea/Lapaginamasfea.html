@@ -19,6 +19,7 @@
     <p>1.-HTML</p>
 
     <div id="introduccionhtml">
+        <p>Introduccion</p>
         <h3 id="quees">¿que es html? <br>hypertext markup language o por sus siglas HTML, es un lenguaje de etiquetas usado para generar 
             la estructura de una página web, un dato clave, no es un lenguaje de programación al no contener lógica, solo etiqueta y muestra 
             el contenido en una página web dependiendo de como sea marcado. 
@@ -30,6 +31,7 @@
     </div>
 
     <div id="basictagshtml">
+        <p>Etiquetas básicas</p>
 
         <h3 id="explicar">explica las etiquetas section, article, aside, header y footer. Section representa una seccion de lapágina, article 
             representa un artículo independiente, aside es un contenido secundario, normalmente publicitario, header es el encabezado de la página 
@@ -65,6 +67,7 @@
     <p>2.-CSS</p>
 
     <div id="introduccioncss">
+        <p>Introduccion</p>
         <h3 id="quees">¿que es css? <br>CSS o cascading style sheets, es un lenguaje de hojas de estilo usado para dar formato a una página web. 
         </h3>
         <h3 id="proposito">¿cual es el proposito de css? <br>su principal proposito es dar formato o vista a una pagian web manteniendola separada 
@@ -75,7 +78,7 @@
             "style" dentro del head para escribir el código css directamente en el documento html y otra forma de hacerlo es usando atributos de 
             estilo directamente en los elementos HTML.
         </h3>
-        <h3 id="queesunslector">
+        <h3 id="queesunselector">
             ¿que es un selector en css? <br>Un selector es una parte del codigo css que se encarga de seleccionar los elementos html a los que se 
             les aplicará un estilo específico, esto mediante el uso de ids, clases o etiqutas.
 
@@ -85,5 +88,65 @@
             <img src="Css Dinner.png" alt="imagen de los 32 niveles de fluke out">
         </h3>
 
+    </div>
+
+    <div id="basiccss">
+        <p>Basic CSS</p>
+        <h3 id="selectores"> Explica los selectores:</h3>
+        <ol>
+            <li><b>Tag: </b> Aplica estilos a todos los elementos de un mismo tipo, por ejemplo a todos los parrafos</li>
+            <li><b>Class: </b> Aplica estilo a los elementos que pertenecen a una clase específica, se pone un punto antes del nombre de la clase
+            </li>
+            <li><b>Id: </b> Id es un atributo irrepetible, inicia con un numeral y aplica estilo a un elemento específico</li>
+            <li><b>Tag y Class: </b> Combina ambos selectores para aplicar estilos a elementos de un tipo específico que también pertenecen a una 
+                clase determinada</li>
+        </ol>
+
+        <h3 id="clase">
+            ¿qué es una clase? ¿qué es un id? ¿como se relacionan con css? <br> Una clase es un atributo o capsula para que css sepa a que aplicar un 
+            estilo, el id hace lo mismo, pero tienen una diferencia clave, la clase puede ser usada en varios elementos, pero el id es único
+        </h3>
+
+        <h3 id="boxmodel">
+            ¿que es el box model? <br> todo son cajas en web y en esto se basa este modelo, en darle 4 atributos a cada elemento, el width y height que
+            definen sus dimensiones, el padding que es el espacio entre el contenido y el borde, el border que es el borde de la caja y el margin que 
+            es el espacio entre la caja y otros elementos <br>
+            ejemplo: <br>
+            .caja{ <br>
+                width: 200px;<br>
+                height: 100px;<br>
+                padding: 10px;<br>
+                border: 2px solid black;<br>
+                margin: 20px;<br>
+            }
+        </h3>
+
+        <h3 id="mediaqueries">
+            ¿que son las media queries? <br> Es una herramienta que permite aplicar estilos solo si se cumplen ciertas condiciones como por ejemplo, el
+            tamaño de la pantalla
+        </h3>
+    </div>
+
+    <div id="layout">
+        <p>Layout</p>
+        <h3 id="grid">Explica el grid <br> Grid es un sistema que ayuda a diseñar un layout bidimensional, permite organizar contenido en filas y
+            columnas
+        </h3>
+        <h3 id="flexbox">Explica el flexbox <br> Flexbox es un sistema de diseño unidimensional, se enfoca en organizar elementos en una sola dirección 
+            ya sea horizontal o vertical
+        </h3>
+        <h3 id="imagenfrog">
+            imagen de frog <br>
+            <img src="Frog.png" alt="imagen de los 24 niveles del frog">
+        </h3>
+    </div>
+
+    <div id="aplicacion">
+        <p>Clone wikileaks</p>
+        <h3 id="usodeflexygrid">
+            imagen del uso en la copia de wikileaks <br>
+            <img src="wikileaks.png" alt="imagen de la copia de wikileaks usando flex y grid">
+        </h3>
+    </div>
 
 </body>
